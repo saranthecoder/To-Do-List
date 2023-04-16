@@ -1,0 +1,63 @@
+.ALL{
+    background-color: black;
+    height:1000px
+}
+.App{
+    text-align: center;
+    border: 2px solid;
+    width: 250px;
+    margin:auto;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(162, 0, 255), rgb(246, 246, 246));
+}
+
+#delButton{
+    height: 10px;
+    width: 10px;  
+}
+#deletebutton{
+    margin: 10px;
+}
+#deletebutton:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+input:hover{
+    background-color: rgb(183, 255, 255);
+    border-radius: 5px;
+}
+ol{
+    list-style: none;
+    width: 170px;
+    margin: 10px auto;
+    /* border: 2px solid;
+    border-radius: 15px; */
+    
+}
+
+.itemsList{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    text-align:center;
+    position: relative;
+    right: 15px;
+    border-radius: 5px;
+    background-color: rgb(193, 255, 202);
+    font-family:serif;
+}
+.manage{
+    text-align: end;
+}
+
+#addbutton{
+    background-color: rgb(252, 177, 249);
+    border-radius: 5px;
+
+}
+#addbutton:hover{
+    background-color: rgb(255, 0, 247);
+    border-radius: 10px;
+
+}
